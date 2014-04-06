@@ -3,6 +3,11 @@ crypto-tradehistory-storage
 
 Python code to store trade history from cryptocurrency broker APIs. Currently supports Cryptsy. Run via Cron.
 
+Example crontab entry for 15 minutes frequency:
+
+0,14,29,44 * * * * cd /home/tradehistory/crypto-tradehistory-storage && python cron.py
+
+
 Dependency: Cryptsy API library v0.2 (or better)
 https://pypi.python.org/pypi/Cryptsy
 
