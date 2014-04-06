@@ -11,6 +11,9 @@ Example crontab entry for 15 minutes frequency:
 Dependencies: 
 
 -- SQLite3 package ('sqlite3' on Ubuntu)
+Make sure the directory for the database entries exists, by default this is db/ in the same directory.
+The scraper code does not handle this directory's creation, it assumes it exists.
+
 -- Cryptsy API library v0.2 (or better)
 https://pypi.python.org/pypi/Cryptsy
 
