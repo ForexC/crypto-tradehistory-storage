@@ -15,7 +15,7 @@ Make sure the directory for the database entries exists, by default this is db/ 
 The scraper code does not handle this directory's creation, it assumes it exists.
 
 -- Cryptsy API library v0.2 (or better)
-https://pypi.python.org/pypi/Cryptsy
+https://github.com/jaapz/CryptsyPythonAPI
 
 Cryptsy.php should be in same directory as cron.py and scrape.py.
 
